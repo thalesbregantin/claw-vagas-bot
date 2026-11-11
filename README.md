@@ -1,5 +1,6 @@
 # Claw Vagas Bot
-n![CI](https://github.com/thalesbregantin/claw-vagas-bot/actions/workflows/ci.yml/badge.svg)
+
+![CI](https://github.com/thalesbregantin/claw-vagas-bot/actions/workflows/ci.yml/badge.svg)
 
 Agente de IA que acha vagas no LinkedIn, mede o fit, gera um currículo sob medida e se candidata via Easy Apply, **sempre com a sua aprovação no Telegram**. Projeto pessoal em Python, com 229 testes automatizados.
 
