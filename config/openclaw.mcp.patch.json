@@ -1,0 +1,51 @@
+{
+  "mcp": {
+    "servers": {
+      "job-search-mcp-jobspy": {
+        "command": "python3",
+        "args": [
+          "-m",
+          "jobspy_mcp"
+        ],
+        "env": {
+          "PYTHONUNBUFFERED": "1",
+          "JOBSPY_DEFAULT_SITE": "linkedin",
+          "JOBSPY_DEFAULT_COUNTRY": "brazil"
+        },
+        "description": "Busca off-account de vagas recentes no LinkedIn sem expor sessão."
+      },
+      "linkedin-mcp-server": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@stickerdaniel/linkedin-mcp-server"
+        ],
+        "env": {
+          "NODE_ENV": "production"
+        },
+        "description": "Extração detalhada de vagas e identificação de URL de candidatura."
+      },
+      "sqlite": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-sqlite",
+          "--db-path",
+          "~/.openclaw/workspace/db/jobs.db"
+        ],
+        "description": "Acesso seguro ao banco SQLite jobs.db para deduplicação e controle de status."
+      },
+      "filesystem": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-filesystem",
+          "~/.openclaw/workspace/data",
+          "~/.openclaw/workspace/templates",
+          "~/.openclaw/workspace/output"
+        ],
+        "description": "Leitura e escrita de perfil, respostas de triagem e currículos ATS."
+      }
+    }
+  }
+}

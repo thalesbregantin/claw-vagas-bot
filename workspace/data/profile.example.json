@@ -1,0 +1,277 @@
+{
+  "personal": {
+    "full_name": "Thales Exemplo",
+    "display_name": "Thales Exemplo",
+    "headline": "Engenheiro de IA | LLMs, Agentes de IA e RAG | Python, FastAPI e SQL | Guardrails e Segurança de IA aplicados a Risco e Fraude",
+    "email": "candidato@example.com",
+    "phone": "+55 (11) 90000-0000",
+    "location": "São Paulo, SP, Brasil",
+    "linkedin_url": "https://www.linkedin.com/in/exemplo/",
+    "github_url": "https://github.com/exemplo",
+    "portfolio_url": "https://www.linkedin.com/in/exemplo/",
+    "availability": "A combinar / Imediato a 2 semanas",
+    "work_authorization": "Cidadão Brasileiro nato (Disponível para CLT, PJ Nacional e B2B Internacional)"
+  },
+  "search_criteria": {
+    "target_roles": [
+      "Engenheiro de IA",
+      "AI Engineer",
+      "Engenheiro de Automação e IA",
+      "Automation & AI Engineer",
+      "AI Agents Engineer",
+      "Engenheiro de Software Python",
+      "Python Backend Engineer",
+      "Analista de BI e Automação Sênior",
+      "Analytics Engineer"
+    ],
+    "target_locations": [
+      "São Paulo, Brasil",
+      "Brasil",
+      "Remoto",
+      "São Paulo (Híbrido)"
+    ],
+    "workplace_types": [
+      "Remote",
+      "Hybrid"
+    ],
+    "experience_levels": [
+      "Pleno",
+      "Sênior",
+      "Lead"
+    ],
+    "target_keywords": [
+      "Python",
+      "FastAPI",
+      "Agentes de IA",
+      "AI Agents",
+      "LangChain",
+      "RAG",
+      "Ollama",
+      "Guardrails",
+      "SQL",
+      "n8n",
+      "Playwright",
+      "Docker",
+      "Power BI",
+      "ETL",
+      "pytest",
+      "BigQuery",
+      "RPA",
+      "Google Apps Script",
+      "Looker Studio",
+      "Lean Six Sigma"
+    ],
+    "min_match_score": 75,
+    "time_window_hours": 48,
+    "salary_expectations": {
+      "brl_clt_monthly_min": 14000,
+      "brl_pj_monthly_min": 18000,
+      "usd_monthly_min": 5000,
+      "usd_hourly_min": 35
+    }
+  },
+  "summary": "Engenheiro de Produção pós-graduado em Inteligência Artificial e Ciência de Dados, com histórico consolidado em automação de processos, engenharia de dados/BI e otimização em operações de grande escala (Total Express, Mercado Livre, Kangu e Atos). Combina proficiência avançada em Python (FastAPI, Playwright, pandas, pytest/BDD) e orquestração de fluxos (n8n, Google Apps Script) com a implementação de agentes autônomos de IA, modelos RAG, guardrails defensivos em IA local privada (Ollama) contra fraudes e injeção de prompt, e dashboards executivos (Power BI, Looker Studio). Certificado Lean Six Sigma Green Belt, com track record comprovado de redução de tempo operacional de 3h para 15 minutos (~60h/mês recuperadas).",
+  "skills": {
+    "ai_and_llm": [
+      "Agentes de IA & Orquestração Cognitiva (LangChain, n8n AI Nodes, CrewAI)",
+      "Modelos RAG & Embeddings Vetoriais",
+      "IA Local Privada (Ollama) para Validação Fiscal com Custo Zero de Tokens",
+      "Guardrails de Segurança e Defesa contra Prompt Injection e Fraudes",
+      "Engenharia de Prompt Avançada & DSPy",
+      "CursorAI, APIs de LLMs Comerciais (OpenAI, Claude, Gemini)"
+    ],
+    "backend_and_languages": [
+      "Python (Avançado - FastAPI, Asyncio, Pydantic, pandas, NumPy, OpenCV)",
+      "SQL Avançado (PostgreSQL, BigQuery, MySQL, SQLite)",
+      "JavaScript, HTML/CSS, Google Apps Script",
+      "Shell Script / Bash, Linux Avançado",
+      "Arquitetura de Microsserviços, RESTful APIs, Server-Sent Events (SSE), SPA"
+    ],
+    "automation_and_scraping": [
+      "Playwright (Automação Headless e Extração de Sistemas Legados)",
+      "n8n (Orquestração de Workflows Complexos e Webhooks)",
+      "Robotic Process Automation (RPA) & UiPath",
+      "Pipelines de ETL e Observabilidade ChatOps em Tempo Real",
+      "Sistemas de Alerta e Trava Anti-Colapso / Gestão de Backlog"
+    ],
+    "dados_bi_e_qualidade": [
+      "Power BI (DAX, Modelagem de Dados, 14+ Dashboards Operacionais)",
+      "Looker Studio, Google Data Studio, SSRS, Excel Avançado",
+      "Testes Automatizados: pytest, BDD (Gherkin), Logging Estruturado (loguru)",
+      "Lean Six Sigma Green Belt (FM2S) — Mapeamento e Diagnóstico de Gargalos",
+      "Docker, Ansible, Git/GitHub, Suporte a Supercomputação (HPC)"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Total Express",
+      "role": "Automation & AI Engineer Sr (Analista de BI & Automação de Processos Financeiros)",
+      "period": "Mai 2026 – Atual",
+      "location": "São Paulo, Brasil (Híbrido)",
+      "type": "Tempo integral",
+      "description": "Desenvolvimento de soluções de IA aplicada, automações corporativas e engenharia de dados em processos fiscais e financeiros críticos.",
+      "achievements": [
+        "Arquitetei esteiras de validação fiscal e financeira para processos de alta complexidade (Diarização e P&L), eliminando erros manuais.",
+        "Desenvolvi o Extrator Corporativo Automatizado (FastAPI + SSE + SPA) orquestrando extrações paralelas no Power BI, SSRS, SFE Correios e PPD via Playwright headless, reduzindo o tempo de consolidação de 3 horas para 15 minutos (~60h/mês recuperadas).",
+        "Implementei motor fiscal automatizado na rede PUDO integrando IA local privada (Ollama), garantindo custo zero de tokens e conformidade com dados sensíveis.",
+        "Desenvolvi barreiras defensivas determinísticas (Guardrails em Python) contra injeção de prompt e fraudes em PDFs de faturamento e notas fiscais.",
+        "Otimizei pipelines de dados via 25 fluxos de ETL integrados e criei portal web interativo em arquitetura Kanban para governança de dados em tempo real.",
+        "Implementei infraestrutura de testes automatizados com pytest e BDD (Gherkin), elevando a resiliência das entregas."
+      ]
+    },
+    {
+      "company": "Mercado Livre",
+      "role": "Places Analyst | Dados & Automação (Meli Extra)",
+      "period": "Set 2025 – Mai 2026",
+      "location": "São Paulo, Brasil (Remoto)",
+      "type": "Tempo integral",
+      "description": "Desenvolvimento de ferramentas e soluções técnicas para otimização da operação nacional On the Road (Meli Extra).",
+      "achievements": [
+        "Desenvolvi Web Apps e portais internos com Google Apps Script, eliminando a dependência operacional de planilhas manuais.",
+        "Construí fluxos complexos no n8n para integração de sistemas, automação de rotinas repetitivas e garantia da integridade dos dados.",
+        "Implementei Agentes Inteligentes de IA para monitoramento autônomo de indicadores operacionais e execução de tarefas cognitivas."
+      ]
+    },
+    {
+      "company": "Mercado Livre",
+      "role": "Node & Places Local Analyst",
+      "period": "Mar 2025 – Jan 2026",
+      "location": "São Paulo, Brasil (Remoto)",
+      "type": "Tempo integral",
+      "description": "Liderança analítica e modelagem de malha de transporte regional.",
+      "achievements": [
+        "Gerenciei indicadores e modelos analíticos para otimizar a eficiência regional nas áreas de NONECO e SPIO.",
+        "Apliquei metodologia Lean Six Sigma Green Belt para mapeamento de processos e diagnóstico de gargalos da malha de transporte.",
+        "Desenvolvi dashboards executivos para monitoramento de agências e frotas em tempo real."
+      ]
+    },
+    {
+      "company": "Mercado Livre",
+      "role": "Analista de Dados & Automação",
+      "period": "Jan 2024 – Mar 2025",
+      "location": "São Paulo, Brasil",
+      "type": "Tempo integral",
+      "description": "Automação de processos operacionais e inteligência de dados.",
+      "achievements": [
+        "Desenvolvi robôs em Python e RPA para eliminação de tarefas manuais e repetitivas da equipe.",
+        "Criei dashboards no Power BI e Looker Studio com atualização e reporte automatizado de indicadores.",
+        "Implementei sistema de observabilidade ChatOps (SQL + Apps Script) enviando alertas e KPIs hora a hora via Webhook."
+      ]
+    },
+    {
+      "company": "Kangu (Mercado Livre)",
+      "role": "Analista de Dados Pleno",
+      "period": "Mai 2023 – Jan 2024",
+      "location": "São Paulo, Brasil",
+      "type": "Tempo integral",
+      "description": "Escalabilidade da área de inteligência através de scripts em Python e governança de BI.",
+      "achievements": [
+        "Desenvolvi scripts Python para extração, consolidação e reporte automatizado de indicadores de operação.",
+        "Gerenciei dashboards estratégicos em Power BI e Looker Studio para suporte direto à tomada de decisão executiva.",
+        "Conduzi estudos estatísticos e apresentações de resultados em fóruns de liderança."
+      ]
+    },
+    {
+      "company": "Kangu (Mercado Livre)",
+      "role": "Analista de Dados Jr",
+      "period": "Dez 2021 – Mai 2023",
+      "location": "São Paulo, Brasil (Remoto)",
+      "type": "Tempo integral",
+      "description": "Arquitetura de dados para Centros de Distribuição e malha de pontos.",
+      "achievements": [
+        "Criei o ecossistema completo de dados do Centro de Distribuição (DC), estruturando 14 dashboards no Power BI.",
+        "Desenvolvi o algoritmo preventivo 'Trava de Saturação', que pausava preventivamente pontos com acúmulo de pacotes (Backlog) para evitar colapso operacional e proteger SLA.",
+        "Elaborei modelos de previsão de volume (Forecasting) e mapas de georreferenciamento (Hunting) para abertura estratégica de agências."
+      ]
+    },
+    {
+      "company": "Atos",
+      "role": "Estagiário de Engenharia (HPC & Infraestrutura)",
+      "period": "Mar 2021 – Dez 2021",
+      "location": "São Paulo, Brasil",
+      "type": "Estágio",
+      "description": "Sustentação de clusters de Supercomputação (HPC) voltados para Óleo e Gás.",
+      "achievements": [
+        "Suporte a clusters em ambiente Linux para processamento massivo de dados de pesquisa científica.",
+        "Automatizei rotinas de infraestrutura como código (IaC) utilizando Ansible e Shell Script.",
+        "Configurei contêineres Docker e iniciei projetos de automação com UiPath e Python."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Pós-graduação Lato Sensu em Inteligência Artificial e Ciência de Dados",
+      "institution": "Universidade São Judas Tadeu (USJT)",
+      "period": "2022 – 2023",
+      "location": "São Paulo, Brasil"
+    },
+    {
+      "degree": "Bacharelado em Engenharia de Produção",
+      "institution": "Universidade Virtual do Estado de São Paulo (Univesp)",
+      "period": "2018 – 2022",
+      "location": "São Paulo, Brasil"
+    },
+    {
+      "degree": "Tecnólogo em Logística",
+      "institution": "Faculdades Integradas Campos Salles",
+      "period": "2016 – 2018",
+      "location": "São Paulo, Brasil"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Formação Engenheiro de Agentes de IA",
+      "issuer": "Asimov Academy",
+      "year": "2025"
+    },
+    {
+      "name": "LangChain 1.0 na prática - Agentes e RAG com Python",
+      "issuer": "Asimov Academy",
+      "year": "2026"
+    },
+    {
+      "name": "FastAPI na Prática: Criando APIs Modernas em Python",
+      "issuer": "Asimov Academy",
+      "year": "2026"
+    },
+    {
+      "name": "Automações com n8n: Introdução Prática",
+      "issuer": "Asimov Academy",
+      "year": "2025"
+    },
+    {
+      "name": "CursorAI – 10x Mais Produtividade com IDE de IA",
+      "issuer": "Asimov Academy",
+      "year": "2025"
+    },
+    {
+      "name": "Python para IA: do zero ao primeiro chatbot",
+      "issuer": "Asimov Academy",
+      "year": "2024"
+    },
+    {
+      "name": "Lean Six Sigma Green Belt",
+      "issuer": "FM2S Educação e Consultoria",
+      "year": "2024"
+    },
+    {
+      "name": "Inteligência Emocional 4.0",
+      "issuer": "Escola Conquer",
+      "year": "2024"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Português",
+      "level": "Nativo (C2)"
+    },
+    {
+      "language": "Inglês",
+      "level": "Profissional Completo / Fluente para Negócios e Escrita Técnica (B2/C1)"
+    },
+    {
+      "language": "Espanhol",
+      "level": "Intermediário / Comunicação Profissional (B1/B2)"
+    }
+  ]
+}

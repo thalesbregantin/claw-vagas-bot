@@ -1,0 +1,25 @@
+# Segredos e dados pessoais
+.env
+workspace/.env
+workspace/USER.md
+workspace/data/profile.json
+workspace/data/EXPERIENCE_ANSWERS.md
+workspace/data/learned_answers.json
+workspace/data/user_negative_preferences.json
+workspace/data/*.bak_*
+
+# Dados de execução
+workspace/db/*.db
+workspace/db/*.db-wal
+workspace/db/*.db-shm
+workspace/output/
+backups/
+screenshot_*.png
+workspace/*.log
+workspace/*.log.err
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/

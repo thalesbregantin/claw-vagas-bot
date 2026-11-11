@@ -1,0 +1,11 @@
+jinja2
+weasyprint
+pyyaml
+requests
+certifi
+python-jobspy
+faster-whisper
+av
+pytest
+anthropic
+pydantic
