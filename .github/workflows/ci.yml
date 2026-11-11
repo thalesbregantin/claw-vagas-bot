@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Os testes usam só dados de exemplo e não acessam a rede. As dependências pesadas
+      # do runtime (faster-whisper, weasyprint, python-jobspy) não são necessárias aqui.
+      - name: Install test dependencies
+        run: pip install jinja2 pyyaml requests certifi pytest anthropic pydantic
+
+      - name: Tests
+        run: python -m pytest -q
